@@ -55,7 +55,6 @@ export default class App extends React.Component<{}, AppState> {
         const usdAssets: USDAssetType[] = [
             {name: "Sample 1", url:"./samples/stage01.usd"},
             {name: "Sample 2", url:"./samples/stage02.usd"},
-            {name: "Sample 3", url:"./samples/stage03.usd"},
         ];
         
         this.state = {
@@ -360,7 +359,7 @@ export default class App extends React.Component<{}, AppState> {
             {/* Header */}
             <div className="header-bar">
             <img src={LogoImage} alt="Logo" className="header-logo" />
-            <span className="header-title">NEXTDC Digital Twin Explorer</span>
+            <span className="header-title">Omniverse Embedded Web Viewer Example</span>
             </div>
             
             {/* Show progress indicator based on isLoadingAsset state */}
